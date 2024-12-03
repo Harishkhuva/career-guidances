@@ -1,0 +1,460 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*header css start*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    transition: 0.5s;
+}
+.main-navbar{
+    background: #fff;
+    transition: 0.5s;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.sticky{
+    box-shadow: 0 0px 25px 0 #00000042;
+}
+.sticky .navbar{
+    padding: 0px 40px;
+}
+
+.custom-navbar,li{
+    display: flex;
+    padding: 10px;
+}
+.menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #3A6D8C;
+}
+.active a{
+    color: #001F3F;
+}
+.cart{
+    text-decoration: none;
+    padding: 12px 40px;
+    font-size: 20px;
+    color: #001F3F;
+    text-transform: uppercase;
+    border:1px solid #001F3F;
+    transition: 0.5s;
+}
+.cart:hover{
+    box-shadow: inset 196px 0 #001F3F;
+    color: #fff;
+}
+.cg{
+    position: relative;
+}
+.cg:hover .main-sub-menu{
+    display: flex;
+    animation: drop 0.5s;
+}
+@keyframes drop{
+    0%{
+        opacity: 0.5;
+        transform: translatey(-20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.cg:hover .fa-chevron-down{
+    transform: rotate(180deg);
+}
+.main-sub-menu{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 40px;
+    background: #fff;
+    width: 90%;
+    box-shadow: 0 0 50px -25px;
+    border-radius: 20px;
+    padding: 30px;
+    left: 0;
+}
+.fa-chevron-down{
+    margin-left: 5px;
+    transition: 0.2s;
+}
+li.submenu{
+    padding: 10px 0;
+}
+/*header css end*/
+
+/*body css start*/
+.main-title{
+    height: 80vh;
+    padding: 50px 0;
+    background: url(../images/13403366_5225080.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.page-title{
+    font-size: 68px;
+}
+.hero-content{
+    width: 80%;
+    display: flex;
+}
+.main-hero-div{
+    width: 50%;
+}
+.hero-description{
+    margin-top:10px;
+    font-size: 16px;
+    font-family: "poppins";
+}
+.cg-10th{
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+.cg-10th-main-container{
+    width: 80%;
+    display: flex;
+}
+.cg-10th-image{
+    width: 50%;
+}
+.cg-10th-content{
+    padding: 20px;
+    width: 50%;
+}
+.cg-10th-h2{
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.cg-10th-content hr{
+    border: 2px solid #009fff;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cg-10th-content p{
+    font-size: 18px;
+    margin-top: 5px;
+    font-family: "poppins";
+}
+.cg-10th-content a{
+    text-decoration: none;
+    color:#009fff;
+    text-transform: uppercase;
+}
+
+
+
+.cg-12th{
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    background: #001F3F;
+}
+.cg-12th-main-container{
+    width: 80%;
+    display: flex;
+}
+.cg-12th-image{
+    width: 50%;
+}
+.cg-12th-content{
+    padding: 20px;
+    width: 50%;
+}
+.cg-12th-h2{
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.cg-12th-content hr{
+    border: 2px solid #009fff;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cg-12th-content p{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 5px;
+    font-family: "poppins";
+}
+.cg-12th-content a{
+    text-decoration: none;
+    color:#009fff;
+    text-transform: uppercase;
+}
+
+
+.cg-bechlore{
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+.cg-bechlore-main-container{
+    width: 80%;
+    display: flex;
+}
+.cg-bechlore-image{
+    width: 50%;
+}
+.cg-bechlore-content{
+    padding: 20px;
+    width: 50%;
+}
+.cg-bechlore-h2{
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.cg-bechlore-content hr{
+    border: 2px solid #009fff;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cg-bechlore-content p{
+    font-size: 18px;
+    margin-top: 5px;
+    font-family: "poppins";
+}
+.cg-bechlore-content a{
+    text-decoration: none;
+    color:#009fff;
+    text-transform: uppercase;
+}
+
+.cg-master{
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    background: #001F3F;
+}
+.cg-master-main-container{
+    width: 80%;
+    display: flex;
+}
+.cg-master-image{
+    width: 50%;
+}
+.cg-master-content{
+    padding: 20px;
+    width: 50%;
+}
+.cg-master-h2{
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.cg-master-content hr{
+    border: 2px solid #009fff;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cg-master-content p{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 5px;
+    font-family: "poppins";
+}
+.cg-master-content a{
+    text-decoration: none;
+    color:#009fff;
+    text-transform: uppercase;
+}
+
+/*get in touch start*/
+.git-heading-contact{
+    font-size: 32px;
+    color: #fff;
+    font-weight: 700;
+}
+.get-in-touch-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.git-main-container{
+    width: 80%;
+    background: #3a6d8c;
+    padding: 90px;
+    border-radius: 12px;
+    display: flex;
+    gap: 20px;
+    max-width: 1110px;
+}
+.git-content{
+    width: 40%;
+}
+.git-content h2{
+    color: #fff;
+    font-size: 48px;
+}
+.git-p{
+    color: #fff;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.git-contact{
+    font-size: 20px;
+}
+.git-contact a{
+    text-decoration: none;
+    color: #fff;
+}
+.git-contact strong{
+    color: #fff;
+    margin-right: 10px;
+}
+.git-form{
+    width: 60%;
+}
+.git-name{
+    width: 46%;
+    font-size: 20px;
+    padding: 15px 8px;
+    border-radius: 12px;
+    border: none;
+}
+.git-email{
+    width: 46%;
+    font-size: 20px;
+    padding: 15px 8px;
+    border-radius: 12px;
+    border: none;
+}
+.git-subject{
+    width: 100%;
+    font-size: 20px;
+    padding: 15px 8px;
+    margin-top: 15px;
+    border-radius: 12px;
+    border: none;
+}
+.git-message{
+    width: 100%;
+    font-size: 20px;
+    height: 140px;
+    margin-top: 15px;
+    border-radius: 12px;
+    border: none;
+    padding: 10px 8px;
+}
+::placeholder{
+    font-size: 16px;
+}
+.git-form form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.git-email:focus-visible,
+.git-name:focus-visible,
+.git-subject:focus-visible,
+.git-message:focus-visible{
+    outline: none;
+}
+.git-submit{
+    border: none;
+    width: 33%;
+    margin-top: 15px;
+    font-size: 20px;
+    border-radius: 40px;
+    padding: 18px 13;
+    box-shadow: inset -130px 0 #fff
+}
+.button{
+    padding: 17px 40px;
+    color: #009fff;
+    font-weight: 700;
+    background: #001F3F;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    transition: 0.5s;
+    display: block;
+    width: fit-content;
+}
+.button:hover{
+    box-shadow: inset 0px 0 #fff;
+    color: #fff;
+}
+/*get in touch end*/
+/*body css over*/
+
+/*footer css*/
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #001F3F;
+    padding: 50px 0;
+}
+.main-footer-container{
+    width: 80%;
+    display: flex;
+    gap: 15px;
+}
+.footer-logo{
+    width:25%;
+}
+.footer-logo p{
+    font-size: 14px;
+    color: #fff;
+}
+.footer-links{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.f-link-heading{
+    font-size: 28px;
+    color: #009fff;
+    font-family: "poppins";
+}
+.f-links{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: "poppins";
+}
+.f-address{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: "poppins";
+    line-height: 1.8;
+}
+.f-sm-heading{
+    font-size: 28px;
+    color: #009fff;
+    font-family: "poppins";
+    margin-bottom: 15px;
+}
+.sm-logos a{
+    text-decoration: none;
+}
+.footer-social-media{
+    width: 20%;
+}
+.sm-logos{
+    display: flex;
+    gap: 25px;
+}
+/*footer css end*/

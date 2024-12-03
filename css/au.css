@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*header css start*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    transition: 0.5s;
+}
+.main-navbar{
+    background: #fff;
+    transition: 0.5s;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.sticky{
+    box-shadow: 0 0px 25px 0 #00000042;
+}
+.sticky .navbar{
+    padding: 0px 40px;
+}
+
+.custom-navbar,li{
+    display: flex;
+    padding: 10px;
+}
+.menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #3A6D8C;
+}
+.active a{
+    color: #001F3F;
+}
+.cart{
+    text-decoration: none;
+    padding: 12px 40px;
+    font-size: 20px;
+    color: #001F3F;
+    text-transform: uppercase;
+    border:1px solid #001F3F;
+    transition: 0.5s;
+}
+.cart:hover{
+    box-shadow: inset 196px 0 #001F3F;
+    color: #fff;
+}
+.cg{
+    position: relative;
+}
+.cg:hover .main-sub-menu{
+    display: flex;
+    animation: drop 0.5s;
+}
+@keyframes drop{
+    0%{
+        opacity: 0.5;
+        transform: translatey(-20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.cg:hover .fa-chevron-down{
+    transform: rotate(180deg);
+}
+.main-sub-menu{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 40px;
+    background: #fff;
+    width: 90%;
+    box-shadow: 0 0 50px -25px;
+    border-radius: 20px;
+    padding: 30px;
+    left: 0;
+}
+.fa-chevron-down{
+    margin-left: 5px;
+    transition: 0.2s;
+}
+li.submenu{
+    padding: 10px 0;
+}
+/*header css end*/
+/*body css*/
+.au-main-hero-section{
+    height: 80vh;
+    padding: 50px 0;
+}
+
+
+/*body css*/
+/*footer css*/
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #001F3F;
+    padding: 50px 0;
+}
+.main-footer-container{
+    width: 80%;
+    display: flex;
+    gap: 15px;
+}
+.footer-logo{
+    width:25%;
+}
+.footer-logo p{
+    font-size: 14px;
+    color: #fff;
+}
+.footer-links{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.f-link-heading{
+    font-size: 28px;
+    color: #009fff;
+    font-family: "poppins";
+}
+.f-links{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: "poppins";
+}
+.f-address{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: "poppins";
+    line-height: 1.8;
+}
+.f-sm-heading{
+    font-size: 28px;
+    color: #009fff;
+    font-family: "poppins";
+    margin-bottom: 15px;
+}
+.sm-logos a{
+    text-decoration: none;
+}
+.footer-social-media{
+    width: 20%;
+}
+.sm-logos{
+    display: flex;
+    gap: 25px;
+}
+/*footer css end*/

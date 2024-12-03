@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUTURE FLICK</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.cdnfonts.com/css/heritage-2" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <script src="https://kit.fontawesome.com/70f31214e2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="welcome-section">
+        <img src="images/LOGO-1.png" alt="" width="650px" class="intro-img">
+    </section>
+    <header class="main-navbar">
+        <div class="userinfo"></div>
+        <nav class="navbar">
+            <div class="header-logo">
+                <img src="images/LOGO-3.png" alt="" width="250">
+                
+            </div>
+            <div class="header-menu">
+                <ul class="custom-navbar">
+                    <li class="menu active" id="menu"><a href="/Index.html">Home</a></li>
+                    <li class="menu cg" id="menu"><a href="/Career Guidence.html">Career Guidence <i class="fa-sharp fa-solid fa-chevron-down "></i></a>
+                        <ul class="main-sub-menu">
+                            <li class="submenu"><a href="">10<sup>th</sup></a></li>
+                            <hr width="100%">
+                            <li class="submenu"><a href="">12<sup>th</sup></a></li>
+                            <hr width="100%">
+                            <li class="submenu"><a href="">Bechlores</a></li>
+                            <hr width="100%">
+                            <li class="submenu"><a href="">Masters</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu" id="menu"><a href="">Recources</a></li>
+                    <li class="menu" id="menu"><a href="">Workshop</a></li>
+                    <li class="menu" id="menu"><a href="">Mentorship</a></li>
+                    <li class="menu" id="menu"><a href="/About us.html">About us</a></li>
+                </ul>
+            </div>
+            <a href="" class="cart">BOOK NOW</a>
+        </nav>
+    </header>
+    <section class="Hero-section">
+        <div class="banner-flex">
+            <div class="banner-content">
+                <h1>Welcome to <span style="color:#3A6D8C;">Future Flick</span></h1>
+                <p>At Future Flick, we believe that every journey begins with a clear path. Our mission is to guide individuals in making informed decisions about their careers, whether they're just starting out or looking to advance their professional lives.</p>
+            </div>
+            <div class="banner-blank"></div>
+        </div>
+    </section>
+    <section class="services-section" id="services-section">
+        <h2 class="h-services"> Our Services</h2>
+        <h4 class="subheading-servic">Career Guidance After</h4>
+        <p class="service-subline">
+            Making choices after 10th grade can be daunting. At FutureFlick, we help students explore various paths, including
+        </p>
+        <div class="tabs">
+            <ul>
+                <li onclick="myfunction1()" class="tab activetabs">10<sup>th</sup></li>
+                <li onclick="myfunction2()" class="tab">12<sup>th</sup></li>
+                <li onclick="myfunction3()" class="tab">Bechlores</li>
+                <li onclick="myfunction4()" class="tab">Masters</li>
+            </ul>
+        </div>
+        <div class="services-flex" id="s-10th">
+            <div class="s-container w-30 service-1">
+                <div class="inner-scontent">
+                    <h4 class="services-heading">
+                       Science, Commerce, or Arts Streams 
+                    </h4>
+                    <p class="services-content">
+                        Understand the implications of each stream on future career options.
+                    </p>
+                    <a href="" class="button">EXPLORE</a>
+                </div>
+            </div>
+            <div class="s-container w-30 service-2">
+                <div class="inner-scontent">
+                    <h4 class="services-heading">
+                        Vocational<br>Courses 
+                    </h4>
+                    <p class="services-content">
+                        Discover practical, skill-based courses that can lead directly to employment.
+                    </p>
+                    <a href="" class="button">EXPLORE</a>
+                </div>
+            </div>
+            <div class="s-container w-30 service-3">
+                <div class="inner-scontent">
+                    <h4 class="services-heading">
+                        Career Assessments 
+                    </h4>
+                    <p class="services-content">
+                        Take advantage of personalized assessments to identify strengths and interests.
+                    </p>
+                    <a href="" class="button">EXPLORE</a>
+                </div>
+            </div>
+        </div>
+        <div class="services-flex" id="s-12th">
+            <div class="s-container w-30 service-4">
+                <div class="inner-scontent">
+                    <h4 class="services-heading">
+                        Undergraduate Programs 
+                    </h4>
+                    <p class="services-content">
+                        Explore popular degrees in fields like Engineering, Medicine, Arts, Commerce, and more.
+                    </p>
+                    <a href="" class="button">EXPLORE</a>
+                </div>
+            </div>
+            <div class="s-container w-30 service-5">
+                <div class="inner-scontent">
+                    <h4 class="services-heading">
+                        Diploma and Certificate Courses 
+                    </h4>
+                    <p class="services-content">
+                        Understand the value of shorter courses that can boost your employability.
+                    </p>
+                    <a href="" class="button">EXPLORE</a>
+                </div>
+            </div>
+            <div class="s-container w-30 service-6">
+                <div class="inner-scontent">
+                    <h4 class="services-heading">
+                       Entrance Exams 
+                    </h4>
+                    <p class="services-content">
+                        Get tips on preparing for exams like JEE, NEET, and more to secure a spot in your desired college.
+                    </p>
+                    <a href="" class="button">EXPLORE</a>
+                </div>
+            </div>
+        </div>
+        <div class="services-flex" id="s-bechlore">
+            <div class="s-container w-30 service-7">
+                <div class="inner-scontent">
+                    <h4 class="services-heading">
+                        Postgraduate <br>Options 
+                    </h4>
+                    <p class="services-content">
+                        Discuss pursuing a Master’s degree or professional certifications.
+                    </p>
+                    <a href="" class="button">EXPLORE</a>
+                </div>
+            </div>
+            <div class="s-container w-30 service-8">
+                <div class="inner-scontent">
+                    <h4 class="services-heading">
+                        Job Search Strategies 
+                    </h4>
+                    <p class="services-content">
+                        Learn how to craft an effective resume, prepare for interviews, and network effectively.
+                    </p>
+                    <a href="" class="button">EXPLORE</a>
+                </div>
+            </div>
+            <div class="s-container w-30 service-9">
+                <div class="inner-scontent">
+                    <h4 class="services-heading">
+                        Career Path Exploration 
+                    </h4>
+                    <p class="services-content">
+                        Assess potential career paths related to your degree and interests.
+                    </p>
+                    <a href="" class="button">EXPLORE</a>
+                </div>
+            </div>
+        </div>
+        <div class="services-flex" id="s-master">
+            <div class="s-container w-30 service-10">
+                <div class="inner-scontent">
+                    <h4 class="services-heading">
+                        Specialization <br>Advice 
+                    </h4>
+                    <p class="services-content">
+                        Identify areas of specialization that align with market demand.
+                    </p>
+                    <a href="" class="button">EXPLORE</a>
+                </div>
+            </div>
+            <div class="s-container w-30 service-11">
+                <div class="inner-scontent">
+                    <h4 class="services-heading">
+                        Research and Academia 
+                    </h4>
+                    <p class="services-content">
+                        Explore opportunities in research, teaching, and higher education.
+                    </p>
+                    <a href="" class="button">EXPLORE</a>
+                </div>
+            </div>
+            <div class="s-container w-30 service-12">
+                <div class="inner-scontent">
+                    <h4 class="services-heading">
+                        Industry Transition 
+                    </h4>
+                    <p class="services-content">
+                        Get support in transitioning to industry roles, including mentorship and internship opportunities.
+                    </p>
+                    <a href="" class="button">EXPLORE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="why-choose-us-section">
+        <h2 class="whc-h2">Why Choose FutureFlick?</h2>
+        <div class="whc-main-container">
+            <div class="whc-image">
+                <img src="images/1135.jpg" alt="">
+            </div>
+            <div class="whc-content">
+                <p class="whc-p"><b>Personalized Approach:</b> We tailor our guidance to fit your individual goals and aspirations.</p>
+                <p class="whc-p"><b>Experienced Counselors:</b> Our team comprises seasoned professionals with extensive knowledge across various fields.</p>
+                <p class="whc-p"><b>Comprehensive Resources:</b> Access a wealth of resources, including workshops, webinars, and one-on-one coaching.</p>
+                <a href="" class="button">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials-section">
+        <h2 class="ts-h2">What people say</h2>
+        <div class="main-ts-container">
+            <div class="testimonial">
+                <img src="images/292.jpg" alt="">
+                <hr width="30%">
+                <p class="testimonials-p">Future Flick truly helped me find clarity after my 12th exams. I was overwhelmed with options, but their career guidance team made the process so easy. They assessed my interests, strengths, and goals to suggest paths I hadn’t considered before. I’m now on a track I love, and it’s all thanks to their expertise!</p>
+                <h4 class="testimonials-h4">- Rohit S.</h4>
+            </div>
+            <div class="testimonial">
+                <img src="images/2148700822.jpg" alt="">
+                <hr width="30%">
+                <p class="testimonials-p">After my bachelor's, I felt lost and unsure about whether to pursue a master's degree or jump into the job market. Future Flick’s guidance made all the difference! They provided industry insights and helped me understand which skills I needed to succeed. Their support gave me the confidence to choose a career path that’s right for me!</p>
+                <h4 class="testimonials-h4">- Priya M.</h4>
+            </div>
+            <div class="testimonial">
+                <img src="images/2147668972.jpg" alt="">
+                <hr width="30%">
+                <p class="testimonials-p">Choosing a career path after 10th was overwhelming, but Future Flick’s guidance was exactly what I needed. Their counselors are knowledgeable and truly listen to your ambitions. With their help, I picked the right stream and now feel confident about my future. I’m grateful for their support and highly recommend Future Flick to all students!</p>
+                <h4 class="testimonials-h4">- Aarav K.</h4>
+            </div>
+        </div>
+    </section>
+    <section class="get-in-touch-section">
+        <div class="git-main-container">
+            <div class="git-content">
+                <h2>Get in touch</h2>
+                <p class="git-p">Ready to take the next step toward your dream career? Future Flick is here to guide you! Whether you’re a student exploring options, a professional seeking growth, or simply in need of expert advice, our team is committed to helping you navigate the path to success.</p>
+                <p class="git-heading-contact">Contact us on</p>
+                <p class="git-contact"><strong>Email :</strong><a href="mailto:harishkhuva8866@gmail.com">harishkhuva8866@gmail.com</a></p>
+                <p class="git-contact"><strong>Phone :</strong><a href="tel:8866390382">8866390382</a></p>
+            </div>
+            <div class="git-form">
+                <form action="" >
+                    <input type="text" class="git-name" placeholder="Name">
+                    <input type="email" class="git-email" placeholder="Email">
+                    <input type="text" class="git-subject" placeholder="Subject">
+                    <textarea name="" id="" class="git-message" placeholder="Message"></textarea>
+                    <input type="submit" class="git-submit button" value="Send Message">
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="main-footer-container">
+            <div class="footer-logo">
+                <img src="images/LOGO-WHITE-3.png" alt="" width="300">
+                <p>©️2024. Created and manage by Harish</p>
+            </div>
+            <div class="footer-links">
+                <h3 class="f-link-heading">Links</h3>
+                <a href="#" class="f-links">Home</a>
+                <a href="#" class="f-links">Career Guidence</a>
+                <a href="#" class="f-links">Recources</a>
+                <a href="#" class="f-links">Workshop</a>
+                <a href="#" class="f-links">Mentorship</a>
+                <a href="#" class="f-links">About us</a>
+            </div>
+            <div class="footer-links">
+                <h3 class="f-link-heading">Services</h3>
+                <a href="#" class="f-links">10th</a>
+                <a href="#" class="f-links">12th</a>
+                <a href="#" class="f-links">Bechlores</a>
+                <a href="#" class="f-links">Masters</a>
+            </div>
+            <div class="footer-links">
+                <h3 class="f-link-heading">Address</h3>
+                <p class="f-address">Atmiya University "Yogidham Gurukul, Kalavad Rd, Maruti Nagar, Nana Mava, Rajkot, Gujarat 360005</p>
+            </div>
+            <div class="footer-social-media">
+                <h3 class="f-sm-heading">Get Social</h3>
+                <div class="sm-logos">
+                    <a href="">
+                        <img src="images/instagram_5968915.png" alt="" width="40">
+                    </a>
+                    <a href="">
+                        <img src="images/letter-x_12654268.png" alt="" width="40">
+                    </a>
+                    <a href="">
+                        <img src="images/social_16066051.png" alt="" width="40">
+                    </a>
+                    <a href="">
+                        <img src="images/google_1240979.png" alt="" width="40">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
