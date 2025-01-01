@@ -18,7 +18,7 @@ window.onload = function() {
         if (element) {
             element.style.display = "none";
         }
-    }, 3200);
+    }, 2900);
 };
 
 //loading screen animation over
@@ -93,6 +93,9 @@ function myfunction4(){
     document.getElementById("s-master").style.display="flex";
     const element = document.querySelector('.tab:nth-child(4)');
     setActiveTab(element);
+}
+function myfunctionclose(){
+    document.getElementById("mobile-menu").style.display="none";
 }
 
 //tab section script end
