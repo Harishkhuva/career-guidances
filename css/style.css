@@ -76,7 +76,7 @@ p{
     box-shadow: 0 0px 25px 0 #00000042;
 }
 .sticky{
-    width: 23% !important;
+    width: 330px !important;
 }
 .sticky:hover{
     width: 96% !important;
@@ -162,7 +162,7 @@ li.submenu{
     text-transform: uppercase;
     border:1px solid #001F3F;
     transition: 0.5s;
-    margin: auto;
+    margin: auto 0;
 }
 .cart:hover{
     box-shadow: inset 196px 0 #001F3F;
@@ -740,4 +740,119 @@ footer{
 .sm-logos{
     display: flex;
     gap: 25px;
+}
+.mobile-menu{
+    display: none;
+}
+@media only screen and (max-width: 600px){
+    .mobile-menu{
+        display: none;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        z-index: 999;
+        background: #000000d9;
+        width: 100%;
+        display: flex;
+    justify-content: end;
+    align-items: flex-start;
+    }
+    .mobile-menu img{
+        padding: 20px;
+        cursor: pointer;
+    }
+    .welcome-section img{
+        width: 80% !important;
+    }
+    .sticky{
+        width: 87% !important;
+    }
+    .main-navbar{
+        width: 87%;
+    }
+    .Hero-section{
+        height: 43vh;
+        padding: 50px 0;
+        align-items: end;
+    }
+    .banner-flex h1{
+        font-size: 3.5rem;
+    }
+    .banner-flex{
+        display: block;
+    }
+    .banner-content{
+        width: 100%;
+    }
+    .banner-flex p{
+        font-size: 16px;
+    }
+    .header-menu{
+        display: none;
+    }
+    a.cart{
+        display: none;
+    }
+    .w-30{
+        width: 100%;
+    }
+    .tabs{
+        width: 100%;
+        overflow: scroll;
+        scrollbar-width: none;
+        height: 100px;
+    }
+    .tabs ul{
+        width: 100%;
+    }
+    .services-flex{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .whc-main-container{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .whc-image{
+        width: 100%;
+    }
+    .whc-content{
+        width: 100%;
+    }
+    .main-ts-container{
+        flex-direction: column;
+    }
+    .testimonial{
+        width: 90%;
+    }
+    .main-footer-container{
+        flex-direction: column;
+    }
+    .git-main-container{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .git-content{
+        width: 100%;
+    }
+    .git-form{
+        width: 100%;
+    }
+    .git-name,
+    .git-email{
+        width: 100%;
+        margin-top: 15px;
+    }
+    .git-submit{
+        width: fit-content;
+    }
+    .f-link-heading{
+        font-size: 22px;
+    }
+    .footer-logo{
+        width: 100%;
+    }
+    .footer-links{
+        width: 100%;
+    }
 }
